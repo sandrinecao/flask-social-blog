@@ -1,6 +1,6 @@
+from PIL import Image
 import os
 # pip install pillow
-from PIL import Image
 
 from flask import url_for, current_app
 
