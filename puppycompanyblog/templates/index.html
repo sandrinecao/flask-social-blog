@@ -1,10 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
-  <div class="jumbotron">
-    <h1>Puppy Company Blog</h1>
-    <p>Welcome to Our Company's Blog Page</p>
+<br>
+  <div class="container">
+    <h1>Shiba's Spirit</h1>
+    <p>Welcome to my Social Blog App</p>
+    <div class="row justify-content-center">
+      <img align='center' src="{{ url_for('static', filename='/shiba.jpg') }}" height="260" width=95%>
+      </div>
   </div>
-
+<br>
   <div class="container">
 
     {# Go through each blog post #}
